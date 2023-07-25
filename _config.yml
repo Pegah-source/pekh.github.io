@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Pegah Khayatan"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Pegah Khayatan"
 description              : &description "personal description"
 url                      : https://pegah-kh.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Pegah Khayatan"
   avatar           : "profile.png"
-  bio              : ""
+  bio              : "currently doing my M2 internship"
   location         : "Paris"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

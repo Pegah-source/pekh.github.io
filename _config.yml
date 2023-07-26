@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Pegah Khayatan"
   avatar           : "profile.png"
-  bio              : "currently doing my M2 internship"
+  bio              : "currently doing my M2 internship at Valeo AI"
   location         : "Paris"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -175,16 +175,11 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  
+  cv:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  projects:
     output: true
     permalink: /:collection/:path/
 

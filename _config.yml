@@ -109,7 +109,7 @@ author:
   #stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "Khpekhpe"
+  twitter          : "PKhayatan"
   vine             :
   weibo            :
   xing             :
@@ -237,7 +237,7 @@ defaults:
       type: talks
     values:
       layout: talk
-      author_profile: true
+      author_4: true
       share: true
 
 # Sass/SCSS

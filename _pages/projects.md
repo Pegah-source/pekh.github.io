@@ -29,4 +29,4 @@ We attempted to develop a framework to stress-test vehicle planners by generatin
 This was a course project that I truly enjoyed. It's about making animation looking more realistic and loose, by adding exagerated deformation triggered by skeletal velocity on top of standard skinning animation.
 The code uses a [CGP library](https://github.com/drohmer/CGP) developped by the professor of the course, and is a simplification of the work done in one of his papers, [Velocity Skinning](https://velocityskinning.com/).
 
-![Alt Text](report_and_demonstration/ezgif.com-gif-maker.gif)
+![Alt Text](../images//ezgif.com-gif-maker.gif)

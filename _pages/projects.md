@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-## Publications & Preprints
 
 ### [Adversarial corner case generation for motion planning](https://github.com/pegah-kh/kinematic_adversary_agents/blob/main/report.pdf)
   

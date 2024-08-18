@@ -42,5 +42,5 @@ This is a simple plugin of [OpenPifPaf](https://openpifpaf.github.io/intro.html)
 
 ![Alt Text](../images/clothing_landmark.gif)
 
-
+<img src="../images/clothing_landmark.gif" alt="Alt Text" width="500">
 

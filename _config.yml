@@ -182,6 +182,10 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+  competitiveprogramming:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:

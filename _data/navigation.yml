@@ -6,3 +6,6 @@ main:
     
   - title: "Projects"
     url: /projects/
+
+  - title: "Competitive Programming"
+    url: /competitiveprogramming/

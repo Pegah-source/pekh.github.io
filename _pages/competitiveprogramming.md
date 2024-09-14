@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Competitive Programming"
+title: "CP"
 permalink: /competitiveprogramming/
 author_profile: true
 redirect_from:

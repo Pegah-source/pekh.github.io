@@ -40,7 +40,6 @@ The complexity? again $O(log n)$.
 ### Simple Implementation
 The implementation is taken from the book Competitive Programmingn book 1, by Steven and Felix Halim and Suhendry Effendy.
 
-\\\
 ```cpp
 
 #define LSOne(S)   ((S) & (-S))
@@ -78,8 +77,7 @@ public:
         return query(i) - query(i - 1);
     }
 };
-\\\
-
+```
 
 
 Things to still add: Other operations that can be done on Fenwick Tree, their complexity, and the complete implementation.

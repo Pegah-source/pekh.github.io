@@ -40,6 +40,7 @@ The complexity? again $O(log n)$.
 ### Simple Implementation
 The implementation is taken from the book Competitive Programmingn book 1, by Steven and Felix Halim and Suhendry Effendy.
 
+\\\
 ```cpp
 
 #define LSOne(S)   ((S) & (-S))
@@ -77,6 +78,7 @@ public:
         return query(i) - query(i - 1);
     }
 };
+\\\
 
 
 

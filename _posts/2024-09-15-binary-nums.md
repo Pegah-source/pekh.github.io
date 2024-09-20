@@ -57,8 +57,8 @@ public:
     // Function to update the Fenwick Tree with a new value at index idx
     void update(int i, int value) {
         while (idx <= n) {
-            BIT[idx] += value;
-            i += i & -i;  // Move to the next responsible node
+            ft[idx] += value;
+            i += LSOne(i);  // Move to the next responsible node
         }
     }
 
@@ -66,8 +66,8 @@ public:
     int query(int i) {
         int sum = 0;
         while (i > 0) {
-            sum += BIT[i];
-            i -= i & -i;  // Move to the parent node
+            sum += ft[i];
+            i -= LSOne(i);  // Move to the parent node
         }
         return sum;
     }

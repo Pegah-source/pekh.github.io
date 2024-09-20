@@ -28,3 +28,9 @@ But let's be wiser, and make some changes to DFS to make it serve our goal bette
 2. `dfs_low` : If `R` is the set of nodes in the DFS spanning subtree rooted at `u`, then `dfs_low` is the lowest `dfs_num` that can be found in `R` **OR** among the ones not in `R` but reachable by a back edge from `R`.
 
 
+**ADD A VISUALIZATION OF THE DFS AND ASSIGNING THE DFS_NUM AND DFS_LOW**
+
+
+
+Let's say we have done DFS over the graph and now we have all the numbers we wanted to store.
+consider a vertex `u` connnected to `v`, and add the condition `dfs_low(v)` $\geq$ `dfs_num(u)`

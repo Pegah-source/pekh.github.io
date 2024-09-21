@@ -28,7 +28,7 @@ But let's be wiser, and make some changes to DFS to make it serve our goal bette
 2. `dfs_low` : If `R` is the set of nodes in the DFS spanning subtree rooted at `u`, then `dfs_low` is the lowest `dfs_num` that can be found in `R` **OR** among the ones not in `R` but reachable by a back edge from `R`.
 
 
-![Codebook Image](../images/articulations.jpg)
+![Codebook Image](../images/articulations.png)
 
 
 
@@ -37,7 +37,7 @@ Let's say we have done DFS over the graph and now we have all the numbers we wan
 consider a vertex `u` connnected to `v`, and add the condition `dfs_low(v)` $\geq$ `dfs_num(u)`. What does this mean? 
 
 
-![Codebook Image](../images/articulation_dfs_num.jpg)
+![Codebook Image](../images/articulation_dfs_num.png)
 
 
 This means that we have not been able to find a lower `dfs_num` in the DFS subtree rooted at `v` or among those connected to it by a back edge. In other words, the nodes visited during DFS after visiting the node `v` all have higher or equal `dfs_num`s than that of `v`, which also means that there is no back edge from nodes visited in DFS after `v` back to the nodes visited before that point, and hence `u` is an articulation point!

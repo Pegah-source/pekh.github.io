@@ -28,7 +28,7 @@ But let's be wiser, and make some changes to DFS to make it serve our goal bette
 2. `dfs_low` : If `R` is the set of nodes in the DFS spanning subtree rooted at `u`, then `dfs_low` is the lowest `dfs_num` that can be found in `R` **OR** among the ones not in `R` but reachable by a back edge from `R`.
 
 
-![dfs_num and dfs_low example](./images/articulation.jpg)
+![dfs_num and dfs_low example](./images/articulations.jpg)
 
 
 

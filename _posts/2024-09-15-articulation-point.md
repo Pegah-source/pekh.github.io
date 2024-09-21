@@ -37,7 +37,7 @@ Let's say we have done DFS over the graph and now we have all the numbers we wan
 consider a vertex `u` connnected to `v`, and add the condition `dfs_low(v)` $\geq$ `dfs_num(u)`. What does this mean? 
 
 
-**ADD A VISUALIZATION HERE TO SHOW WHAT IS HAPPENING**
+![dfs_num and dfs_low example](../images/articulation_dfs_num.jpg)
 
 
 This means that we have not been able to find a lower `dfs_num` in the DFS subtree rooted at `v` or among those connected to it by a back edge. In other words, the nodes visited during DFS after visiting the node `v` all have higher or equal `dfs_num`s than that of `v`, which also means that there is no back edge from nodes visited in DFS after `v` back to the nodes visited before that point, and hence `u` is an articulation point!
